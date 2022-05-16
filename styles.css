@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  background-color: rgb(246 247 251);
+  color: rgb(84, 87, 98);
+}
+
+.page-grid {
+  padding-right: 20px;
+  display: grid;
+  grid-template: max-content 100vh / minmax(0px, max-content) minmax(360px, 1fr);
+  gap: 20px;
+}
+
+.top-nav {
+  padding-top: 20px;
+  grid-area: 1 / 2 / 2 / 4 ;
+}
+
+.top-nav-container {
+  display: grid;
+  grid-template: max-content / 1fr max-content;
+  padding: 15px 20px 15px 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.075);
+}
+
+.top-nav-links li {
+  list-style-type: none;
+  display: inline;
+}
+
+.top-nav-links li:hover {
+  color: rgb(45, 109, 212);
+}
+
+.top-nav-links {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.top-nav-options {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.divider {
+  width: 1px;
+  background-color: rgb(219, 221, 231);
+  height: 100%;
+}
+
+.h-divider {
+  height: 1px;
+  background-color: rgb(219, 221, 231);
+  width: 100%;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(219, 221, 231);
+}
+
+.side-nav {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.075);
+  background-color: white;
+  padding: 30px;
+  grid-area: 1 / 1 / 4 / 2;
+  display: grid;
+  row-gap: 20px;
+  grid-template: max-content / max-content;
+  grid-auto-rows: max-content;
+}
+
+.side-nav a {
+  padding-left:  30px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 18px 18px;
+  color: rgb(84, 87, 98);
+  text-decoration: none;
+}
+
+.side-nav a:hover {
+  color: rgb(45, 109, 212);
+}
+
+#dashboard {
+  background-image: url(img/dash.svg);
+}
+
+#dashboard:hover {
+  background-image: url(img/dash-h.svg);
+}
+
+#home {
+  background-image: url(img/home.svg);
+}
+
+.main-content {
+  grid-area: 2 / 2 / 4 / 4;
+  display: grid;
+  grid-template: max-content / 2fr 1fr;
+}
+
