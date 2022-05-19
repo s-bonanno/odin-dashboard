@@ -44,6 +44,10 @@ p a {
   line-height: 1.4;
 }
 
+p a:hover {
+  color: var(--hover-link);
+}
+
 p {
   margin-bottom: 10px;
 }
