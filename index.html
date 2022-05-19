@@ -13,18 +13,21 @@
       <div class="top-nav-container">
         <ul class="top-nav-links">
           <li><a href="">New</a></li>
-          <li>Upload</li>
-          <li>Share</li>
+          <li><a href="">Upload</a></li>
+          <li><a href="">Share</a></li>
         </ul>
       <div class="top-nav-options">
-        <div>Mr. Robot</div>
+        <input type="text" id="search-bar" placeholder=" " results=5></input>
         <div class="divider"></div>
+        <div id="alerts"></div>
+        <div class="divider"></div>
+        <div>Mr. Robot</div>
         <div class="avatar"></div>
       </div>
       </div>
     </div>
     <div class="side-nav">
-      <div>Mr. Dashboard</div>
+      <div id="dash-title">Mr. Dashboard</div>
       <div class="h-divider"></div>
       <a href="" id="dashboard">Dashboard</a> 
       <a href="" id="home">Home</a>
@@ -38,10 +41,202 @@
       <a href="" id="privacy">Privacy</a>
     </div>
     <div class="main-content">
-      <div class="project">Test</div>
-      <div class="project">Test</div>
-      <div class="project">Test</div>
-      <div class="project">Test</div>
+      <div id="projects">
+        <div class="section-title">Your projects</div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-1.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-2.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-3.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-4.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-5.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-6.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-1.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-2.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-3.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-4.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-5.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(img/project-6.jpg)"></div>
+          <div>
+            <h2>A project title</h2>
+            <p>Sed non faucibus quam. Aliquam quis augue lorem. Sed pretium malesuada ante. Donec eu commodo justo.</p>
+          </div>
+          <div class="card-controls">
+            <div class="card-icon favourite"></div>
+            <div class="card-icon view"></div>
+            <div class="card-icon share"></div>
+          </div>
+        </div>
+      </div>
+      <div id="news">
+        <div class="section-title">Announcements</div>
+        <div id="announcements">
+          <div>
+            <h3>A thing happened</h3>
+            <p>Mauris quis tempor metus. Sed consectetur, neque eu consectetur interdum, nisl nibh rhoncus tortor, a tempus ipsum massa sed odio. Quisque vel libero id est consequat feugiat vitae et nisl.</p>
+            <p>Interdum, nisl nibh rhoncus tortor, a tempus ipsum massa sed odio. Quisque vel libero id est consequat feugiat vitae et nisl.</p>
+            <p><a href="">Read&nbsp;more&nbsp;&rarr;</a></p>
+          </div>
+          <div class="h-divider"></div>
+          <div>
+            <h3>Then another thing happened and it was pretty... pretty... pretty... good. Pretty good.</h3>
+            <p>Interdum, nisl nibh rhoncus tortor, a tempus ipsum massa sed odio. Quisque vel libero id est consequat feugiat vitae et nisl.</p>
+            <p><a href="">Read&nbsp;more&nbsp;&rarr;</a></p>
+          </div>        
+        </div>
+        <div class="section-title">Trending</div>
+        <div id="trending">
+          <div class="trending-image" style="background-image: url(img/project-4.jpg)"></div>
+          <div>
+            <h3>@mrbojangles</h3>
+            <p>Mauris quis tempor metus. Sed consectetur, neque eu consectetur.
+            <a href="">More&nbsp;&rarr;</a></p>
+          </div>
+          <div class="h-divider"></div>
+          <div class="trending-image" style="background-image: url(img/project-3.jpg)"></div>
+          <div>
+            <h3>@mrpoopyman99</h3>
+            <p>Sed consectetur, neque eu consectetur.
+            <a href="">More&nbsp;&rarr;</a></p>
+          </div>
+          <div class="h-divider"></div>     
+          <div class="trending-image" style="background-image: url(img/project-6.jpg)"></div>
+          <div>
+            <h3>@professorX-789</h3>
+            <p>Consectetur, neque eu consectetur.Mauris quis tempor metus.
+            <a href="">More&nbsp;&rarr;</a></p>
+          </div>
+          <div class="h-divider"></div>     
+          <div class="trending-image" style="background-image: url(img/project-2.jpg)"></div>
+          <div>
+            <h3>@snoop-dawgz-bolognese</h3>
+            <p>Aliquam quis augue lorem. Sed pretium malesuada.
+            <a href="">More&nbsp;&rarr;</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
